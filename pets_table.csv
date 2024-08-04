@@ -1,0 +1,101 @@
+Type,Breed,Size,Temperament,Age,Weight,Color,Activity Level,House Training Status,Obedience Training,Last Vaccination Status,Last Vaccination Date,Diet,Well Socialized
+Dog,Bulldog,Large,Shy,15,7.8,Brown,Moderate,No,Yes,Not Vaccinated,2024-01-16,Regular kibble,Well Socialized
+Dog,Bulldog,Small,Energetic,9,15.8,Gray,High,No,No,Not Vaccinated,2024-03-27,Grain-free kibble,Needs Improvement
+Bird,African Grey,Medium,Friendly,5,1.0,Red,Moderate,Yes,Yes,Not Vaccinated,2024-05-15,High-protein diet,Well Socialized
+Cat,Persian,Small,Curious,15,1.9,White,Low,No,No,Incomplete,2023-08-23,Raw food diet,Well Socialized
+Cat,Abyssinian,Small,Adaptable,12,3.1,Brown,High,No,No,Incomplete,2023-09-17,Dry cat food,Well Socialized
+Dog,Beagle,Large,Loyal,15,7.4,Brown,Moderate,No,No,Up to date,2024-01-23,Prescription renal diet,Needs Improvement
+Dog,Siberian Husky,Large,Playful,12,5.3,White,Low,No,No,Not Vaccinated,2023-08-31,Prescription renal diet,Needs Improvement
+Dog,Poodle,Small,Energetic,7,11.8,Black,Low,Yes,No,Incomplete,2023-11-30,Senior dog food,Needs Improvement
+Cat,British Shorthair,Small,Adaptable,13,3.2,White,Moderate,No,No,Up to date,2023-09-28,Dry cat food,Well Socialized
+Dog,Beagle,Large,Playful,10,23.7,Golden,Moderate,No,Yes,Not Vaccinated,2024-03-01,Raw food diet,Needs Improvement
+Dog,Golden Retriever,Medium,Loyal,12,20.5,Brown,Moderate,Yes,Yes,Incomplete,2024-01-25,Regular kibble,Well Socialized
+Cat,Maine Coon,Medium,Adaptable,11,1.8,Orange,High,Yes,No,Not Vaccinated,2024-04-05,High-protein diet,Needs Improvement
+Cat,Ragdoll,Small,Adaptable,14,6.5,Gray,Low,Yes,Yes,Not Vaccinated,2024-05-13,Dry cat food,Well Socialized
+Bird,Budgerigar,Medium,Shy,3,0.46,White,High,No,No,Incomplete,2024-06-08,Prescription renal diet,Needs Improvement
+Dog,Golden Retriever,Large,Energetic,3,19.4,Black,Moderate,Yes,Yes,Not Vaccinated,2024-01-17,Senior dog food,Needs Improvement
+Dog,Labrador Retriever,Medium,Playful,8,21.2,Golden,Low,Yes,Yes,Incomplete,2024-01-17,Prescription renal diet,Needs Improvement
+Cat,Siamese,Large,Adaptable,10,4.0,Orange,High,Yes,No,Not Vaccinated,2024-06-11,Raw food diet,Well Socialized
+Cat,Siamese,Large,Independent,10,7.7,Gray,High,Yes,No,Incomplete,2023-12-03,Grain-free kibble,Well Socialized
+Dog,Poodle,Small,Friendly,4,18.7,Brown,High,No,No,Not Vaccinated,2024-05-05,High-protein diet,Well Socialized
+Bird,Finch,Large,Energetic,9,1.8,Yellow,Low,Yes,No,Up to date,2023-09-04,Regular kibble,Needs Improvement
+Dog,Dachshund,Large,Friendly,3,14.5,Gray,High,Yes,No,Not Vaccinated,2024-03-03,Dry cat food,Well Socialized
+Bird,Lovebird,Medium,Playful,2,1.53,Orange,High,No,Yes,Up to date,2024-07-02,Grain-free kibble,Well Socialized
+Cat,Bengal,Small,Adaptable,5,8.7,Black,Low,Yes,No,Not Vaccinated,2024-05-14,Regular kibble,Needs Improvement
+Bird,Budgerigar,Small,Friendly,7,1.57,Purple,High,No,Yes,Up to date,2024-04-23,Senior dog food,Needs Improvement
+Bird,Cockatoo,Medium,Friendly,8,1.46,Black,Moderate,Yes,No,Incomplete,2023-09-18,Prescription renal diet,Needs Improvement
+Dog,Beagle,Medium,Energetic,4,2.9,White,High,Yes,Yes,Not Vaccinated,2023-12-04,Dry cat food,Needs Improvement
+Cat,Ragdoll,Small,Adaptable,4,3.2,Black,Moderate,Yes,No,Up to date,2024-04-04,Dry cat food,Well Socialized
+Bird,Budgerigar,Medium,Playful,2,0.9,Green,Low,No,No,Up to date,2024-03-30,Raw food diet,Needs Improvement
+Bird,Macaw,Large,Energetic,2,1.43,Red,High,Yes,Yes,Incomplete,2024-04-16,Raw food diet,Well Socialized
+Bird,Budgerigar,Medium,Playful,2,1.47,White,High,Yes,No,Incomplete,2023-10-25,Senior dog food,Needs Improvement
+Bird,Macaw,Small,Loyal,2,1.42,Black,High,No,Yes,Not Vaccinated,2024-05-20,Raw food diet,Needs Improvement
+Dog,Siberian Husky,Small,Energetic,5,23.8,Gray,Moderate,Yes,Yes,Not Vaccinated,2023-10-30,Raw food diet,Well Socialized
+Cat,Scottish Fold,Small,Independent,7,8.3,Black,Moderate,Yes,No,Not Vaccinated,2024-06-03,Raw food diet,Well Socialized
+Bird,Macaw,Large,Playful,7,1.88,Black,Low,Yes,No,Not Vaccinated,2024-01-07,Grain-free kibble,Needs Improvement
+Dog,Beagle,Small,Playful,15,11.7,Gray,Moderate,Yes,No,Incomplete,2023-10-08,High-protein diet,Well Socialized
+Bird,Parrot,Large,Loyal,7,1.98,Red,Moderate,No,No,Up to date,2024-03-18,Regular kibble,Needs Improvement
+Cat,British Shorthair,Medium,Independent,14,8.3,White,High,Yes,Yes,Incomplete,2024-04-05,Senior dog food,Well Socialized
+Cat,Bengal,Large,Curious,11,6.3,Brown,High,No,No,Not Vaccinated,2024-02-26,Regular kibble,Needs Improvement
+Dog,Poodle,Medium,Friendly,12,15.9,White,High,Yes,Yes,Up to date,2024-05-25,Raw food diet,Needs Improvement
+Cat,Abyssinian,Small,Adaptable,13,6.5,Black,Moderate,No,Yes,Up to date,2024-03-17,Prescription renal diet,Needs Improvement
+Cat,Abyssinian,Small,Adaptable,8,4.6,Gray,High,Yes,No,Not Vaccinated,2024-07-14,Grain-free kibble,Well Socialized
+Bird,Budgerigar,Large,Loyal,2,0.51,White,Low,Yes,Yes,Up to date,2024-01-01,Dry cat food,Well Socialized
+Bird,Lovebird,Small,Shy,3,1.23,Green,Low,Yes,Yes,Not Vaccinated,2023-10-17,Dry cat food,Needs Improvement
+Cat,Ragdoll,Medium,Adaptable,3,3.5,White,Moderate,Yes,No,Incomplete,2023-09-24,Senior dog food,Needs Improvement
+Dog,Golden Retriever,Large,Friendly,14,8.6,Gray,Low,Yes,No,Incomplete,2024-07-04,High-protein diet,Needs Improvement
+Cat,Scottish Fold,Small,Curious,2,9.3,Gray,High,Yes,No,Up to date,2024-07-17,Prescription renal diet,Well Socialized
+Cat,Sphynx,Medium,Adaptable,5,3.4,Orange,High,No,No,Not Vaccinated,2024-01-24,Dry cat food,Needs Improvement
+Bird,Parrot,Large,Loyal,4,0.34,White,Low,Yes,Yes,Up to date,2023-09-25,Senior dog food,Needs Improvement
+Cat,Maine Coon,Large,Affectionate,7,7.0,White,Moderate,No,No,Up to date,2024-06-11,Regular kibble,Well Socialized
+Dog,Poodle,Small,Energetic,8,12.1,Gray,Moderate,No,Yes,Not Vaccinated,2024-07-26,Raw food diet,Needs Improvement
+Cat,Ragdoll,Large,Affectionate,14,1.8,White,Moderate,No,Yes,Incomplete,2024-06-01,Regular kibble,Needs Improvement
+Bird,Canary,Medium,Energetic,3,0.91,Red,Moderate,No,Yes,Up to date,2023-11-05,Raw food diet,Needs Improvement
+Bird,Cockatoo,Small,Loyal,3,0.28,Yellow,Moderate,No,Yes,Not Vaccinated,2023-10-25,Grain-free kibble,Well Socialized
+Cat,Bengal,Medium,Adaptable,6,7.6,Brown,High,Yes,No,Incomplete,2024-02-16,Grain-free kibble,Needs Improvement
+Bird,Canary,Large,Energetic,3,0.87,Blue,High,No,No,Not Vaccinated,2024-01-19,Senior dog food,Needs Improvement
+Bird,Finch,Medium,Loyal,6,0.66,Red,Low,No,Yes,Not Vaccinated,2023-12-18,Senior dog food,Well Socialized
+Bird,Parrot,Small,Friendly,5,0.87,Green,Moderate,No,No,Incomplete,2023-09-19,High-protein diet,Needs Improvement
+Dog,Rottweiler,Large,Energetic,3,9.8,Brown,Low,No,No,Not Vaccinated,2023-08-05,Senior dog food,Well Socialized
+Dog,Bulldog,Medium,Shy,14,7.9,Brown,Low,No,Yes,Up to date,2024-01-03,High-protein diet,Well Socialized
+Dog,Rottweiler,Small,Shy,2,6.8,Golden,Moderate,Yes,No,Incomplete,2023-09-27,Prescription renal diet,Needs Improvement
+Bird,Parrot,Small,Energetic,8,1.28,Black,Low,Yes,Yes,Incomplete,2024-06-07,Prescription renal diet,Well Socialized
+Bird,Cockatoo,Large,Shy,7,1.51,White,Low,Yes,No,Not Vaccinated,2024-04-29,Senior dog food,Needs Improvement
+Bird,Canary,Large,Friendly,9,0.74,Purple,Low,No,Yes,Incomplete,2023-09-03,Raw food diet,Well Socialized
+Dog,Beagle,Small,Shy,14,27.1,White,Low,Yes,No,Up to date,2023-10-29,Raw food diet,Well Socialized
+Bird,Parrot,Medium,Energetic,9,0.71,Green,Moderate,No,No,Incomplete,2024-01-27,Senior dog food,Well Socialized
+Bird,Parrot,Large,Energetic,4,0.77,Blue,Low,Yes,No,Incomplete,2024-04-13,Raw food diet,Needs Improvement
+Cat,Scottish Fold,Small,Affectionate,13,8.3,Gray,Low,Yes,Yes,Up to date,2024-01-06,High-protein diet,Well Socialized
+Cat,Bengal,Medium,Adaptable,1,2.4,Black,High,No,No,Incomplete,2023-12-29,Regular kibble,Needs Improvement
+Cat,Sphynx,Small,Independent,16,6.5,Orange,Moderate,Yes,No,Not Vaccinated,2024-04-24,Dry cat food,Needs Improvement
+Dog,Labrador Retriever,Small,Shy,9,25.2,Black,Moderate,No,No,Incomplete,2024-02-14,High-protein diet,Needs Improvement
+Cat,Bengal,Large,Curious,8,1.5,Orange,Moderate,No,No,Incomplete,2024-07-08,Regular kibble,Needs Improvement
+Dog,Golden Retriever,Medium,Shy,2,3.3,Black,High,Yes,Yes,Not Vaccinated,2023-10-31,Regular kibble,Needs Improvement
+Cat,Sphynx,Small,Curious,9,10.0,Gray,Low,Yes,Yes,Not Vaccinated,2024-06-07,High-protein diet,Well Socialized
+Bird,Budgerigar,Large,Friendly,9,1.15,Orange,High,No,Yes,Incomplete,2023-11-04,Dry cat food,Well Socialized
+Dog,Rottweiler,Medium,Playful,14,4.5,Brown,High,No,Yes,Incomplete,2023-10-18,Dry cat food,Needs Improvement
+Cat,British Shorthair,Small,Gentle,15,1.6,Orange,High,No,Yes,Incomplete,2024-05-15,Prescription renal diet,Needs Improvement
+Cat,Bengal,Medium,Curious,12,5.0,Orange,Low,Yes,No,Not Vaccinated,2023-08-11,Dry cat food,Well Socialized
+Dog,Beagle,Medium,Loyal,7,26.9,White,Low,No,No,Incomplete,2024-06-24,Grain-free kibble,Well Socialized
+Cat,Persian,Small,Adaptable,6,9.4,Black,Low,Yes,No,Incomplete,2023-08-15,Prescription renal diet,Needs Improvement
+Cat,Ragdoll,Small,Affectionate,15,5.6,Gray,Low,No,Yes,Not Vaccinated,2024-02-20,Grain-free kibble,Well Socialized
+Dog,Dachshund,Medium,Energetic,10,23.1,Gray,High,Yes,Yes,Not Vaccinated,2023-10-23,High-protein diet,Needs Improvement
+Dog,German Shepherd,Medium,Friendly,2,26.3,Brown,High,Yes,No,Not Vaccinated,2023-11-01,Grain-free kibble,Well Socialized
+Bird,Finch,Large,Energetic,4,1.6,Green,Low,Yes,Yes,Not Vaccinated,2023-09-28,Prescription renal diet,Needs Improvement
+Dog,Labrador Retriever,Large,Playful,1,26.0,Black,Moderate,Yes,No,Incomplete,2024-05-05,Grain-free kibble,Needs Improvement
+Bird,Lovebird,Small,Friendly,7,1.08,Blue,High,No,No,Up to date,2023-12-20,High-protein diet,Well Socialized
+Bird,Parrot,Medium,Shy,10,1.19,Orange,Moderate,No,No,Up to date,2024-03-09,Senior dog food,Needs Improvement
+Bird,Macaw,Large,Shy,6,1.92,Blue,Moderate,Yes,No,Not Vaccinated,2024-05-19,Dry cat food,Needs Improvement
+Bird,Macaw,Small,Shy,2,1.02,Black,High,No,No,Not Vaccinated,2024-07-16,Dry cat food,Needs Improvement
+Bird,Cockatoo,Medium,Energetic,1,1.28,Orange,High,No,No,Up to date,2024-04-01,Grain-free kibble,Well Socialized
+Dog,German Shepherd,Small,Playful,9,8.9,Brown,Low,No,No,Not Vaccinated,2024-04-19,Raw food diet,Needs Improvement
+Dog,German Shepherd,Large,Energetic,12,11.6,Gray,Moderate,No,No,Not Vaccinated,2024-07-04,Prescription renal diet,Needs Improvement
+Cat,Siamese,Medium,Curious,2,1.9,White,Moderate,Yes,Yes,Incomplete,2023-08-17,High-protein diet,Needs Improvement
+Dog,Bulldog,Large,Loyal,11,22.5,Golden,Low,No,Yes,Not Vaccinated,2023-11-09,Regular kibble,Well Socialized
+Dog,Beagle,Medium,Loyal,10,10.3,Black,Low,No,Yes,Up to date,2023-11-11,High-protein diet,Well Socialized
+Dog,German Shepherd,Medium,Shy,13,9.4,White,Moderate,Yes,Yes,Up to date,2024-04-29,Regular kibble,Needs Improvement
+Dog,Golden Retriever,Medium,Loyal,4,16.2,Black,High,No,No,Incomplete,2023-12-15,Raw food diet,Well Socialized
+Bird,Macaw,Small,Shy,6,0.28,Yellow,Low,Yes,No,Not Vaccinated,2023-12-26,Regular kibble,Well Socialized
+Bird,Budgerigar,Medium,Playful,10,1.71,Purple,High,No,No,Not Vaccinated,2024-01-15,Raw food diet,Needs Improvement
+Cat,Abyssinian,Small,Adaptable,11,1.7,Orange,Moderate,No,No,Up to date,2024-04-23,Regular kibble,Needs Improvement
+Bird,African Grey,Medium,Friendly,8,1.3,Black,Moderate,No,No,Up to date,2024-03-19,Senior dog food,Needs Improvement
