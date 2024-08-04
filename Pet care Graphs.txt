@@ -1,0 +1,49 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+import seaborn as sns
+
+# Load the dataset
+file_path = 'pets_table.csv'  # Make sure the CSV file is in the same directory as the script
+data = pd.read_csv(file_path)
+
+# Preprocess the data (capitalize the columns)
+def preprocess_data(data):
+    for col in data.columns:
+        data[col] = data[col].apply(lambda x: x.capitalize() if isinstance(x, str) else x)
+    return data
+
+data = preprocess_data(data)
+
+# Plotting
+
+# Distribution of pet types
+plt.figure(figsize=(10, 6))
+sns.countplot(data=data, x='Type')
+plt.title('Distribution of Pet Types')
+plt.xlabel('Pet Type')
+plt.ylabel('Count')
+plt.show()
+
+# Distribution of sizes
+plt.figure(figsize=(10, 6))
+sns.countplot(data=data, x='Size')
+plt.title('Distribution of Sizes')
+plt.xlabel('Size')
+plt.ylabel('Count')
+plt.show()
+
+# Comparison of age vs. well socialized status
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=data, x='Well Socialized', y='Age')
+plt.title('Age vs. Well Socialized Status')
+plt.xlabel('Well Socialized')
+plt.ylabel('Age')
+plt.show()
+
+# Comparison of weight vs. well socialized status
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=data, x='Well Socialized', y='Weight')
+plt.title('Weight vs. Well Socialized Status')
+plt.xlabel('Well Socialized')
+plt.ylabel('Weight')
+plt.show()
