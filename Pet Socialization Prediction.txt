@@ -1,0 +1,114 @@
+import csv
+from collections import defaultdict
+import random
+
+class NaiveBayesClassifier:
+    def __init__(self):
+        self.class_probabilities = {}
+        self.feature_probabilities = defaultdict(lambda: defaultdict(lambda: defaultdict(float)))
+
+    def train(self, data):
+        # Calculate class probabilities
+        total_samples = len(data)
+        for row in data:
+            class_label = row[-1]
+            if class_label not in self.class_probabilities:
+                self.class_probabilities[class_label] = 0
+            self.class_probabilities[class_label] += 1
+        for label in self.class_probabilities:
+            self.class_probabilities[label] /= total_samples
+        
+        # Calculate feature probabilities
+        num_features = len(data[0]) - 1
+        for row in data:
+            class_label = row[-1]
+            for i in range(num_features):
+                feature_value = row[i]
+                self.feature_probabilities[class_label][i][feature_value] += 1
+        for class_label in self.feature_probabilities:
+            for feature_index in self.feature_probabilities[class_label]:
+                total_count = sum(self.feature_probabilities[class_label][feature_index].values())
+                for feature_value in self.feature_probabilities[class_label][feature_index]:
+                    self.feature_probabilities[class_label][feature_index][feature_value] /= total_count
+
+    def predict(self, sample):
+        max_probability = -1
+        predicted_class = None
+        for class_label in self.class_probabilities:
+            probability = self.class_probabilities[class_label]
+            for i, feature_value in enumerate(sample):
+                if feature_value in self.feature_probabilities[class_label][i]:
+                    probability *= self.feature_probabilities[class_label][i][feature_value]
+                else:
+                    probability *= 1e-6  # Handle unseen feature values with a small probability
+            if probability > max_probability:
+                max_probability = probability
+                predicted_class = class_label
+        return predicted_class
+
+def preprocess_input(features):
+    features[0] = features[0].capitalize()  # Capitalize type
+    features[1] = features[1].capitalize()  # Capitalize breed
+    features[2] = features[2].capitalize()  # Capitalize size
+    features[3] = features[3].capitalize()  # Capitalize temperament
+    features[6] = features[6].capitalize()  # Capitalize color
+    features[7] = features[7].capitalize()  # Capitalize activity level
+    features[8] = features[8].capitalize()  # Capitalize house training status
+    features[9] = features[9].capitalize()  # Capitalize obedience training
+    features[10] = features[10].capitalize()  # Capitalize last vaccination status
+    features[-1] = features[-1].capitalize()  # Capitalize well socialized
+    return features
+
+def main():
+    # Load and preprocess data
+    data = []
+    with open('pets_table.csv', 'r') as file:
+        reader = csv.reader(file)
+        next(reader)  # Skip header
+        for row in reader:
+            data.append(row)
+    for i in range(len(data)):
+        data[i] = preprocess_input(data[i])
+    
+    # Split data into training and testing sets
+    random.shuffle(data)
+    split_index = int(0.8 * len(data))
+    training_data = data[:split_index]
+    testing_data = data[split_index:]
+    
+    # Train Naive Bayes classifier
+    classifier = NaiveBayesClassifier()
+    classifier.train(training_data)
+    
+    # Calculate accuracy on testing set
+    correct_predictions = 0
+    total_predictions = len(testing_data)
+    for sample in testing_data:
+        true_label = sample[-1]
+        predicted_label = classifier.predict(sample[:-1])
+        if predicted_label == true_label:
+            correct_predictions += 1
+    accuracy = correct_predictions / total_predictions * 100
+    print(f"Accuracy: {accuracy:.2f}%")
+    
+    # Input pet features
+    pet_type = input("Enter pet type (e.g., Dog, Cat, Bird): ").capitalize()
+    breed = input("Enter breed/species: ").capitalize()
+    size = input("Enter size (Small, Medium, Large): ").capitalize()
+    temperament = input("Enter temperament (Energetic, Friendly, Playful, Shy, Loyal): ").capitalize()
+    age = input("Enter age (in years): ")
+    weight = input("Enter weight (in kg): ")
+    color = input("Enter color: ").capitalize()
+    activity_level = input("Enter activity level (Low, Moderate, High): ").capitalize()
+    house_training_status = input("Enter house training status (Yes, No): ").capitalize()
+    obedience_training = input("Enter obedience training (Yes, No): ").capitalize()
+    last_vaccination_status = input("Enter last vaccination status (Up to date, Not vaccinated, Incomplete): ").capitalize()
+    diet = input("Enter diet: ").capitalize()
+    
+    # Make prediction
+    sample = [pet_type, breed, size, temperament, age, weight, color, activity_level, house_training_status, obedience_training, last_vaccination_status, diet]
+    predicted_label = classifier.predict(sample)
+    print("Predicted well socialized status:", predicted_label)
+
+if __name__ == '__main__':
+    main()
